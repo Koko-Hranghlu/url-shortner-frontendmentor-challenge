@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <script
+      defer
+      src="script.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="logo-container">
+            <img src="images/logo.svg" />
+          </div>
+          <div class="main-links">
+            <ul class="nav-links">
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Resources</a></li>
+            </ul>
+            <ul class="nav-links sign-links">
+              <li><a href="#">Login</a></li>
+              <li><a href="#" class="primary-btn">Sign Up</a></li>
+            </ul>
+          </div>
+          <a class="hamburger-btn">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </a>
+        </div>
+      </nav>
+      <section class="hero container">
+        <div class="hero-text">
+          <h1>More than just <br />shorter links</h1>
+          <p>
+            Build your brand’s recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <a href="#" class="primary-btn">Get Started</a>
+        </div>
+        <div class="hero-img-container">
+          <img src="images/illustration-working.svg" class="hero-img" />
+        </div>
+      </section>
+    </header>
+    <section class="url-shortner">
+      <div class="container">
+        <form action="#" method="get" accept-charset="utf-8">
+          <div>
+            <input type="text" placeholder="Shorten a link here..." />
+            <small>Please add a link</small>
+            <button class="primary-btn" type="submit">Shorten It!</button>
+          </div>
+        </form>
+        <div class="links"></div>
+      </div>
+    </section>
+    <section class="statistics">
+      <div class="container">
+        <div class="center-txt-items">
+          <h2>Advanced Statistics</h2>
+          <p>
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
+        <section class="statistic-cards">
+          <article class="statistic-card">
+            <div class="card-img-container">
+              <img src="images/icon-brand-recognition.svg" />
+            </div>
+            <h3>Brand Recognition</h3>
+            <p>
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </article>
+          <article class="statistic-card">
+            <div class="card-img-container">
+              <img src="images/icon-detailed-records.svg" />
+            </div>
+            <h3>Detailed Records</h3>
+            <p>
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+          </article>
+          <article class="statistic-card">
+            <div class="card-img-container">
+              <img src="images/icon-fully-customizable.svg" />
+            </div>
+            <h3>Fully Customizable</h3>
+            <p>
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </article>
+        </section>
+      </div>
+    </section>
+    <section class="boost">
+      <div class="center-txt-items">
+        <h2>Boost your links today</h2>
+        <button class="primary-btn">Get Started</button>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="logo-container"><img src="images/logo-footer.svg" /></div>
+        <article class="footer-links">
+          <h4>Features</h4>
+          <ul>
+            <li><a href="#">Link Shortening</a></li>
+            <li><a href="#">Branded Links</a></li>
+            <li><a href="#">Analytics</a></li>
+          </ul>
+        </article>
+        <article class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </article>
+        <article class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </article>
+        <article class="footer-links">
+          <ul class="social-links">
+            <li>
+              <a href="#" class="fa-brands fa-square-facebook"></a>
+            </li>
+            <li>
+              <a href="#" class="fa-brands fa-twitter"></a>
+            </li>
+            <li>
+              <a href="#" class="fa-brands fa-pinterest"></a>
+            </li>
+            <li>
+              <a href="#" class="fa-brands fa-instagram"></a>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </footer>
+  </body>
+</html>
